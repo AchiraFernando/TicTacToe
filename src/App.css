@@ -1,0 +1,24 @@
+.board {
+  border: 0.5rem solid black;
+  background: black;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.squares {
+  background: #ffffff;
+  border: none;
+  font-size: 5rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.X {
+  color: red;
+}
+.O {
+  color: green;
+}
